@@ -19,7 +19,7 @@ use Magento\Framework\Phrase;
  */
 class ImageContentValidatorExtension
 {
-    private const ALLOWED_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png'];
+    const ALLOWED_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png'];
 
     /**
      * @var IoFile
