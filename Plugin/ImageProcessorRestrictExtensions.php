@@ -16,7 +16,7 @@ use Magento\Framework\Api\Uploader;
  */
 class ImageProcessorRestrictExtensions
 {
-    private const ALLOWED_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png'];
+    const ALLOWED_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png'];
 
     /**
      * @var Uploader
